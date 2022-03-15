@@ -1,0 +1,167 @@
+body {
+    display: grid;
+}
+
+div {
+    border-radius: 1px;
+}
+
+.page_layout {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.pageName {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    background-color: #e4e4e4;
+    border-bottom: 5px solid #eb9812;
+}
+
+.pageHeader {
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    display: flex;
+    border-bottom: 3px solid black;
+}
+
+.pageHeader li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+.pageHeader li img {
+    width: 30px;
+    height: 30px;
+}
+
+.pageHeader ul {
+    float: right;
+    right: 0px;
+    position: absolute;
+    margin-top: 7px;
+}
+
+.pageHeader p {
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.pageHeader h6 {
+    position: absolute;
+    left: 245px;
+    top: 39px;
+    font-size: 12px;
+}
+
+.pageHeader img {
+    width: 55px;
+    height: 50px;
+}
+
+.pageNav {
+    display: block;
+    padding: 0;
+    background-color: black;
+    font-size: 16px;
+    border-bottom: 3px solid black;
+}
+
+.pageNav ul {
+    border: 0;
+    position: relative;
+    text-align: center;
+    height: inherit;
+}
+
+.pageNav li {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+.pageNav a {
+    text-decoration: none;
+    color: white;
+}
+
+.pageNav .focus {
+    background-color: #eb9812;
+}
+
+.pageNav li:hover {
+    background-color: #eb9812;
+    transition: all 0.5s ease;
+}
+
+.blog {
+    width: 600px;
+}
+
+.blogNav {
+    background-color: #d1d1d1;
+    text-align: center;
+    height: 300px;
+}
+
+.blogNav b {
+    font-size: 23px;
+}
+
+.blogNav p {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.blogNav .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.blogNav .content img {
+    width: 120px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.blogNav .content i {
+    font-size: 8px;
+}
+
+.blogNav .content div {
+    margin-bottom: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+span {
+    border-top: 4px solid #eb9812;
+    display: block;
+}
+
+form p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+form a {
+    font-size: 13px;
+}
+
+form input {
+    width: 100%;
+    border-radius: 0;
+    height: 30px;
+    outline: none;
+    border: 2px solid black;
+}
